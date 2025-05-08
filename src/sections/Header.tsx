@@ -6,9 +6,9 @@ import Link from 'next/link';
 
 export const Header = () => {
   return (
-    <header className='border-b border-white/15 md:border-none py-4'>
+    <header className='sticky top-0 border-b border-white/15 md:border-none py-4 z-20'>
       <div className='container'>
-        <div className='flex justify-between items-center md:p-2.5 md:border border-white/15 max-w-2xl mx-auto rounded-xl'>
+        <div className='flex justify-between items-center md:p-2.5 md:border border-white/15 max-w-2xl mx-auto rounded-xl backdrop-blur'>
           <div>
             <div className='inline-flex justify-center items-center w-10 h-10 border border-white/15 rounded-lg'>
               <LogoIcon className='w-8 h-8' />
